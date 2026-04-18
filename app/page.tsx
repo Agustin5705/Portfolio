@@ -32,14 +32,19 @@ export default function Home() {
       {/* Language Change */}
       <section className="flex items-center justify-center bg-linear-to-b from-blue-600 to-blue-500">
         <div className="flex flex-row items-center gap-2 m-1">
-          <p>{lang === "es" ? "Haz click aquí -->" : "Click here -->"}</p>
+          <p className="text-sm text-white/70 italic tracking-wide">
+            {lang === "es" ? "Haz click aquí -->" : "Click here -->"}
+          </p>
           <button
             onClick={() => setLang(lang === "es" ? "en" : "es")}
-            className="p-2 text-black rounded-2xl border-2 cursor-pointer gradient bg-linear-to-b from-blue-300 to-blue-500"
+            className="px-4 py-2 text-white font-semibold rounded-xl 
+             bg-linear-to-b from-blue-300 to-blue-500 
+             shadow-md hover:scale-105 hover:from-blue-400 hover:to-blue-600 
+             transition-transform duration-300"
           >
             {lang === "es" ? "Switch to English" : "Cambiar a Español"}
           </button>
-          <p>
+          <p className="text-sm text-white/70 italic tracking-wide">
             {lang === "es"
               ? "<-- para cambiar a inglés."
               : "<-- to switch to Spanish."}
@@ -222,7 +227,7 @@ export default function Home() {
             <p className="font-serif text-lg">
               {lang === "es"
                 ? "Soy desarrollador full stack especializado en frontend. Manejo tecnologías como Next.js, NestJS, JavaScript, TypeScript, Tailwind y Bootstrap, además de bases de datos relacionales y no relacionales con SQL. Soy bilingüe y cuento con buenas habilidades de comunicación y presentación, lo que me permite integrarme y aportar valor en equipos de trabajo."
-                : "I am a full stack developer with a strong focus on frontend. My experience includes Next.js, NestJS, JavaScript, TypeScript, Tailwind, and Bootstrap, as well as relational and non‑relational databases using SQL. I am bilingual and bring solid communication and presentation skills, enabling me to collaborate effectively and contribute within team environments."}
+                : "I am a full stack developer with a strong focus on frontend. My experience includes Next.js, NestJS, JavaScript, TypeScript, Tailwind, and Bootstrap, as well as relational and non-relational databases using SQL. I am bilingual and bring solid communication and presentation skills, enabling me to collaborate effectively and contribute within team environments."}
             </p>
           </div>
         </div>
@@ -266,24 +271,28 @@ export default function Home() {
       </section>
 
       {/* Footer and Contact Section */}
-      <footer className="h-48 bg-linear-to-b from-gray-500 to-gray-600 text-white flex flex-col items-center justify-center gap-4">
-        <p>Let’s build something together.</p>
+      <footer className="h-48 bg-linear-to-b from-gray-500 to-gray-600 text-white flex flex-col items-center justify-center gap-4 relative">
+        <p className="text-lg font-semibold tracking-wide">
+          {lang === "es"
+            ? "Pongamonos en contacto y construyamos algo único."
+            : "Let's get in contact and build something unique."}
+        </p>
         <div className="flex gap-6">
           <a
             href="mailto:agus5705@gmail.com"
-            className="hover:scale-110 transition"
+            className="px-3 py-1 rounded hover:bg-white/20 hover:scale-110 transition bg-linear-to-br from-gray-400 to gray-500"
           >
             Email
           </a>
           <a
             href="www.linkedin.com/in/agustín-rodríguez-77ba3269"
-            className="hover:scale-110 transition"
+            className="px-3 py-1 rounded hover:bg-white/20 hover:scale-110 transition bg-linear-to-br from-gray-400 to gray-500"
           >
             LinkedIn
           </a>
           <a
             href="https://github.com/Agustin5705?tab=overview&from=2026-04-01&to=2026-04-17"
-            className="hover:scale-110 transition"
+            className="px-3 py-1 rounded hover:bg-white/20 hover:scale-110 transition bg-linear-to-br from-gray-400 to gray-500"
           >
             GitHub
           </a>
