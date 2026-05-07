@@ -372,6 +372,19 @@ export default function Home() {
               />
             </div>
 
+            <div id="ecommerce-backend">
+              <ProjectCard
+                title="E-Commerce Backend"
+                description={
+                  lang === "es"
+                    ? "Proyecto en etapa temprana orientado a expandir mis habilidades como full stack. Backend desarrollado con NestJS, utilizando Docker y PostgreSQL para la gestión de datos. El objetivo es implementar un flujo de pedidos robusto, validaciones y una integración futura con pasarelas de pago. Actualmente se encuentra en fase inicial, con la base de datos y la arquitectura del servidor en construcción."
+                    : "Early-stage project aimed at expanding my full stack skills. Backend built with NestJS, using Docker and PostgreSQL for data management. The goal is to implement a robust order flow, validations, and future integration with payment gateways. Currently in its initial phase, with database and server architecture under development."
+                }
+                link2="https://github.com/Agustin5705/GrowBack"
+                className="bg-linear-to-bl from-blue-500 to-gray-400"
+              />
+            </div>
+
             {/*
           <div id="x">
           <ProjectCard
