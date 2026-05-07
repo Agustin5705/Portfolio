@@ -561,6 +561,16 @@ export default function Home() {
         className="h-48 bg-linear-to-b from-gray-500 to-gray-600 text-white flex flex-col items-center justify-center gap-4 relative"
         id="contact"
       >
+        <a
+          href={lang === "es" ? "/CV.pdf" : "/EngCV.pdf"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-3 py-1 rounded hover:bg-white/20 hover:scale-110 transition bg-linear-to-br from-gray-400 to-gray-500"
+        >
+          {lang === "es"
+            ? "Haz click aquí para ver mi CV"
+            : "Click here to see my resume"}
+        </a>
         <p className="text-lg font-semibold tracking-wide">
           {lang === "es"
             ? "Pongamonos en contacto y construyamos algo único."
@@ -587,8 +597,11 @@ export default function Home() {
             GitHub
           </a>
         </div>
-        <UruguayanFlag />
-        <p className="text-lg font-semibold tracking-wide">
+        <div className="">
+          <UruguayanFlag />
+        </div>
+
+        <p className="text-lg font-semibold tracking-wide pb-2">
           Montevideo, Uruguay.
         </p>
       </footer>
