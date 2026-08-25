@@ -372,15 +372,30 @@ export default function Home() {
               />
             </div>
 
-            <div id="ecommerce-backend">
+            <div id="Thai Gym">
               <ProjectCard
-                title="E-Commerce Backend"
+                title="Thai Gym"
                 description={
                   lang === "es"
-                    ? "Proyecto en etapa temprana orientado a expandir mis habilidades como full stack. Backend desarrollado con NestJS, utilizando Docker y PostgreSQL para la gestión de datos. El objetivo es implementar un flujo de pedidos robusto, validaciones y una integración futura con pasarelas de pago. Actualmente se encuentra en fase inicial, con la base de datos y la arquitectura del servidor en construcción."
-                    : "Early-stage project aimed at expanding my full stack skills. Backend built with NestJS, using Docker and PostgreSQL for data management. The goal is to implement a robust order flow, validations, and future integration with payment gateways. Currently in its initial phase, with database and server architecture under development."
+                    ? "Sitio web para Thai Gym, un gimnasio especializado en Muay Thai, Kickboxing y boxeo. Presenta la trayectoria de un maestro con décadas de experiencia en la enseñanza de estas disciplinas, ofreciendo un espacio accesible para entrenar salud, defensa y confianza."
+                    : "Website for Thai Gym, a training center focused on Muay Thai, Kickboxing, and boxing. Highlights the career of a teacher with decades of experience in these disciplines, providing an accessible space to train for health, self‑defense, and confidence."
                 }
-                link2="https://github.com/Agustin5705/GrowBack"
+                link="https://thai-gym.netlify.app/"
+                screenshot="/images/thaigym.jpg"
+                className="bg-linear-to-bl from-blue-500 to-gray-400"
+              />
+            </div>
+
+            <div id="Lavadero Eco">
+              <ProjectCard
+                title="Lavadero Eco"
+                description={
+                  lang === "es"
+                    ? "Demo para Lavadero Eco, un servicio de lavado de ropa rápido, confiable y accesible en Montevideo. La página transmite identidad clara y ecológica, guiando al cliente hacia el contacto directo con la dueña y destacando procesos de limpieza responsables."
+                    : "Demo for Lavadero Eco, a clothing washing service in Montevideo known for being quick, reliable, and accessible. The site conveys a clear eco‑friendly identity, guiding customers to contact the owner directly while emphasizing responsible cleaning practices."
+                }
+                link="https://lavadero-eco.netlify.app/"
+                screenshot="/images/lavaderoeco.jpg"
                 className="bg-linear-to-bl from-blue-500 to-gray-400"
               />
             </div>
@@ -392,6 +407,7 @@ export default function Home() {
             description={lang === "es" ? "Placeholder español" : "Placeholder English"}
             link="Placeholder"
             screenshot="/images/placeholder.jpg"
+            className="bg-linear-to-bl from-blue-500 to-gray-400"
           />
           </div>
           */}
