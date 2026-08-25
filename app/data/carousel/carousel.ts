@@ -8,21 +8,20 @@ export const featuredProjects = [
     screenshot: "/images/dreamcanvas.jpg",
   },
   {
-    key: "lienzoCulinario",
-    title: "Lienzo Culinario",
-    descriptionEs: "E-commerce de comida con base de datos y pagos simulados.",
-    descriptionEn: "Food e-commerce with database and simulated payments.",
-    link: "#lienzo-culinario",
-    screenshot: "/images/lienzoculinario.jpg",
+    key: "Thai Gym",
+    title: "Thai Gym",
+    descriptionEs:
+      "Pagina de gimnasio de Muay Thai y Kickboxing hecha en relacion freelance.",
+    descriptionEn: "Muay Thai and kickboxing gym page made as a freelance.",
+    link: "#Thai Gym",
+    screenshot: "/images/thaigym.jpg",
   },
   {
-    key: "masterpieceHaven",
-    title: "Masterpiece Haven",
-    descriptionEs:
-      "Primer proyecto destacable, estética fuerte y flujo de compra básico.",
-    descriptionEn:
-      "Early featureable project, strong aesthetics and basic purchase flow.",
-    link: "#masterpiece-haven",
-    screenshot: "/images/masterpiecehaven.jpg",
+    key: "Lavadero Eco",
+    title: "Lavadero Eco",
+    descriptionEs: "Pagina de lavadero hecha en relacion freelance.",
+    descriptionEn: "Freelance clothing washing business website.",
+    link: "#Lavadero Eco",
+    screenshot: "/images/lavaderoeco.jpg",
   },
 ];
