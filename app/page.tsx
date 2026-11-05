@@ -405,8 +405,8 @@ export default function Home() {
                 title="Rejina Ardaiz Masajista"
                 description={
                   lang === "es"
-                    ? "Pagina para masagista terapeutica, enfocada en colores suaves y diseño harmonico. Animaciones no intrusivas e imagenes ilustrativas del servicio ofrecido."
-                    : "Therapeutic massage webpage, focused in soft colors and harmonic design. Non intrusive animations and illustrative images of the service being offered."
+                    ? "Desarrollo de un sitio web enfocado en una presentación visual elegante y armónica. El diseño utiliza una paleta de colores suaves, composiciones equilibradas e imágenes ilustrativas."
+                    : "Website developed with an emphasis on an elegant and harmonious visual presentation. The design combines a soft color palette, balanced layouts and illustrative imagery."
                 }
                 link="https://regiardaizmasajista.netlify.app/"
                 screenshot="/images/regiardaiz.jpg"
@@ -419,8 +419,8 @@ export default function Home() {
                 title="Everyday English"
                 description={
                   lang === "es"
-                    ? "Pagina de clases de ingles, presentacion minimalista, bilingue y centrada en explicar niveles de aprencizaje, metodos usados y facilidad de contacto con el profesor."
-                    : "English classes page, minimalist presentation, bilingual and focused on explaining levels of learning, employed methods and make contact with the teacher easy."
+                    ? "Sitio web bilingüe diseñado para presentar una propuesta educativa mediante una interfaz minimalista, moderna y orientada a la comunicación. La estructura organiza el contenido en secciones independientes que permiten explorar el enfoque de enseñanza, los distintos niveles de dominio del idioma y las modalidades de aprendizaje. El diseño busca mantener una lectura clara y jerarquizada, facilitando la comprensión del contenido y el acceso a los medios de contacto."
+                    : "Bilingual website designed to present an educational approach through a minimalist, modern and communication-oriented interface. Its structure organizes content into independent sections, allowing visitors to explore the teaching approach, different language proficiency levels and available learning options. The design focuses on clear information hierarchy and readability, making the content easy to understand while keeping contact options accessible."
                 }
                 link="https://everydayenglishclasses.netlify.app/"
                 screenshot="/images/everyday.jpg"
@@ -433,8 +433,8 @@ export default function Home() {
                 title="Tu Negocio"
                 description={
                   lang === "es"
-                    ? "Pagina de oferta de creacion y publicacion de paginas web hechas a la medida. Presentacion enriquecida para mostrar las ofertas y precios."
-                    : "Page that offers building and publishing tailormade webpages. Enriched presentation to showcase the offer and pricing."
+                    ? "Sitio web comercial desarrollado para presentar y promocionar servicios de diseño y desarrollo web. La interfaz funciona como un catálogo organizado que permite explorar diferentes planes, comparar características y consultar precios mediante una presentación visual diferenciada. Incluye secciones dedicadas a explicar la propuesta, mostrar trabajos realizados y facilitar el contacto, acompañadas de una jerarquía visual que guía al usuario a través de la información."
+                    : "Commercial website developed to showcase and promote web design and development services. The interface works as an organized catalog where visitors can explore different plans, compare features and review pricing through a visually differentiated presentation. It includes dedicated sections for introducing the service, showcasing previous work and facilitating contact, supported by a visual hierarchy that guides users through the information."
                 }
                 link="https://tunegociocatalogo.netlify.app/"
                 screenshot="/images/tunegocio.jpg"
