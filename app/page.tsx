@@ -391,8 +391,8 @@ export default function Home() {
                 title="Lavadero Eco"
                 description={
                   lang === "es"
-                    ? "Demo para Lavadero Eco, un servicio de lavado de ropa rápido, confiable y accesible en Montevideo. La página transmite identidad clara y ecológica, guiando al cliente hacia el contacto directo con la dueña y destacando procesos de limpieza responsables."
-                    : "Demo for Lavadero Eco, a clothing washing service in Montevideo known for being quick, reliable, and accessible. The site conveys a clear eco‑friendly identity, guiding customers to contact the owner directly while emphasizing responsible cleaning practices."
+                    ? "Lavadero Eco, un servicio de lavado de ropa rápido, confiable y accesible en Montevideo. La página transmite identidad clara y ecológica, guiando al cliente hacia el contacto directo con la dueña y destacando procesos de limpieza responsables."
+                    : "Lavadero Eco, a clothing washing service in Montevideo known for being quick, reliable, and accessible. The site conveys a clear eco‑friendly identity, guiding customers to contact the owner directly while emphasizing responsible cleaning practices."
                 }
                 link="https://lavadero-eco.netlify.app/"
                 screenshot="/images/lavaderoeco.jpg"
@@ -400,6 +400,42 @@ export default function Home() {
               />
             </div>
 
+            <div id="Rejina Ardaiz Masajista">
+              <ProjectCard
+                title="Rejina Ardaiz Masajista"
+                description={
+                  lang === "es"
+                    ? "Pagina para masagista terapeutica, enfocada en colores suaves y diseño harmonico. Animaciones no intrusivas e imagenes ilustrativas del servicio ofrecido."
+                    : "Therapeutic massage webpage, focused in soft colors and harmonic design. Non intrusive animations and illustrative images of the service being offered."
+                }
+                link="https://regiardaizmasajista.netlify.app/"
+                screenshot="/images/regiardaiz.jpg"
+                className="bg-linear-to-bl from-blue-500 to-gray-400"
+              />
+            </div>
+
+            {/*
+          <div id="x">
+          <ProjectCard
+            title="Project X"
+            description={lang === "es" ? "Placeholder español" : "Placeholder English"}
+            link="Placeholder"
+            screenshot="/images/placeholder.jpg"
+            className="bg-linear-to-bl from-blue-500 to-gray-400"
+          />
+          </div>
+          */}
+            {/*
+          <div id="x">
+          <ProjectCard
+            title="Project X"
+            description={lang === "es" ? "Placeholder español" : "Placeholder English"}
+            link="Placeholder"
+            screenshot="/images/placeholder.jpg"
+            className="bg-linear-to-bl from-blue-500 to-gray-400"
+          />
+          </div>
+          */}
             {/*
           <div id="x">
           <ProjectCard
