@@ -414,28 +414,34 @@ export default function Home() {
               />
             </div>
 
-            {/*
-          <div id="x">
-          <ProjectCard
-            title="Project X"
-            description={lang === "es" ? "Placeholder español" : "Placeholder English"}
-            link="Placeholder"
-            screenshot="/images/placeholder.jpg"
-            className="bg-linear-to-bl from-blue-500 to-gray-400"
-          />
-          </div>
-          */}
-            {/*
-          <div id="x">
-          <ProjectCard
-            title="Project X"
-            description={lang === "es" ? "Placeholder español" : "Placeholder English"}
-            link="Placeholder"
-            screenshot="/images/placeholder.jpg"
-            className="bg-linear-to-bl from-blue-500 to-gray-400"
-          />
-          </div>
-          */}
+            <div id="Everyday English">
+              <ProjectCard
+                title="Everyday English"
+                description={
+                  lang === "es"
+                    ? "Pagina de clases de ingles, presentacion minimalista, bilingue y centrada en explicar niveles de aprencizaje, metodos usados y facilidad de contacto con el profesor."
+                    : "English classes page, minimalist presentation, bilingual and focused on explaining levels of learning, employed methods and make contact with the teacher easy."
+                }
+                link="https://everydayenglishclasses.netlify.app/"
+                screenshot="/images/everyday.jpg"
+                className="bg-linear-to-bl from-blue-500 to-gray-400"
+              />
+            </div>
+
+            <div id="TuNegocio">
+              <ProjectCard
+                title="Tu Negocio"
+                description={
+                  lang === "es"
+                    ? "Pagina de oferta de creacion y publicacion de paginas web hechas a la medida. Presentacion enriquecida para mostrar las ofertas y precios."
+                    : "Page that offers building and publishing tailormade webpages. Enriched presentation to showcase the offer and pricing."
+                }
+                link="https://tunegociocatalogo.netlify.app/"
+                screenshot="/images/tunegocio.jpg"
+                className="bg-linear-to-bl from-blue-500 to-gray-400"
+              />
+            </div>
+
             {/*
           <div id="x">
           <ProjectCard
